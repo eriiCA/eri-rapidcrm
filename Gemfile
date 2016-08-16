@@ -46,12 +46,16 @@ group :development do
 end
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.4.2'
   gem 'sqlite3'
+  gem 'rspec-rails', '~> 3.4.2'
+
 end
 
 group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+gem 'will_paginate', '~> 3.0'
+
 

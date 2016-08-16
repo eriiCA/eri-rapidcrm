@@ -21,7 +21,7 @@
 				<thead>
 					<tr>
 						<th>
-							Name
+							<%= sortable "name" %>
 						</th>
 						<th>
 							Company
@@ -61,6 +61,8 @@
 		</div>
 	</div>
 </div>
+
+<%= will_paginate @leads %>
 
 <hr>
 

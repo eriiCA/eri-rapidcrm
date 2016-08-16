@@ -1,5 +1,5 @@
 class SearchController < ApplicationController
-  def indexndeindex
+  def index
     @leads = Lead.text_search(params[:query])
   end
 end

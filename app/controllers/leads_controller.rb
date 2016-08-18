@@ -10,6 +10,10 @@ class LeadsController < ApplicationController
     respond_to do |format|
       format.html
       format.csv { render text: @leads.to_csv }
+      format.json { render json: @leads }
+      format.json { render json: @leads }
+      format.xml { render xml: @leads }
+
   end
   end
 

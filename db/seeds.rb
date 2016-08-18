@@ -8,4 +8,4 @@ end
 
 50.times do |i|
   Lead.create!(name: "Alex Mtz #{i}", company: "DAT", location: "Ags", phone: "18782973")
-end
+endAdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
